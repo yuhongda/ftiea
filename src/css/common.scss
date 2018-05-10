@@ -1,0 +1,51 @@
+@font-face {
+    font-family: FZYouHJW;
+    src: url('./src/fonts/FZYouHJW_Xian.eot');
+    src: url('./src/fonts/FZYouHJW_Xian.eot?#iefix') format("embedded-opentype"),url('./src/fonts/FZYouHJW_Xian.woff') format("woff"),url('./src/fonts/FZYouHJW_Xian.ttf') format("truetype"),url('./src/fonts/FZYouHJW_Xian.svg#open_sansregular') format("svg");
+    font-weight: 200;
+    font-style: normal
+}
+
+@font-face {
+    font-family: FZYouHJW;
+    src: url('./src/fonts/FZYouHJW_ChaoXi.eot');
+    src: url('./src/fonts/FZYouHJW_ChaoXi.eot?#iefix') format("embedded-opentype"),url('./src/fonts/FZYouHJW_ChaoXi.woff') format("woff"),url('./src/fonts/FZYouHJW_ChaoXi.ttf') format("truetype"),url('./src/fonts/FZYouHJW_ChaoXi.svg#open_sansregular') format("svg");
+    font-weight: 200;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Teko_Light;
+    src: url('./src/fonts/Teko_Light.ttf') format("truetype");
+    font-weight: 200;
+    font-style: normal
+}
+
+@-webkit-keyframes lightAnim {
+    0% { left:0;opacity:0;  }
+    50% { left:50%;opacity:1; }
+    100% { left:100%; opacity:0;visibility: hidden; } 
+}
+
+@-moz-keyframes lightAnim {
+    0% { left:0;opacity:0;  }
+    50% { left:50%;opacity:1; }
+    100% { left:100%; opacity:0;visibility: hidden; } 
+}
+
+@-ms-keyframes lightAnim {
+    0% { left:0;opacity:0;  }
+    50% { left:50%;opacity:1; }
+    100% { left:100%; opacity:0;visibility: hidden; } 
+}
+
+@keyframes lightAnim {
+    0% { left:0;opacity:0;  }
+    50% { left:50%;opacity:1; }
+    100% { left:100%; opacity:0;visibility: hidden; } 
+}
+.echarts{width:100% !important;height:400px !important; }
+
+.middle *{ display:inline-block;vertical-align:middle;}
+.middle option{ display:block;}
+
